@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375371562396",
+    "project_id": "sensor-acc-with-har-knn",
+    "storage_bucket": "sensor-acc-with-har-knn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375371562396:android:5b5073db36989b80225c59",
+        "android_client_info": {
+          "package_name": "com.example.sensoraccwithhar_knn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375371562396-udnnvebafslfdqhe6vqioimm20nl36vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5gspa4q57peaFxOaEK-A8HvDWJIjN5_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375371562396-udnnvebafslfdqhe6vqioimm20nl36vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

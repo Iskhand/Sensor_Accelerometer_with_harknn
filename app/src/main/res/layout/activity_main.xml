@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#8DFD5D"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="0dp" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Human Activity Recognition"
+        android:textColor="#FF0000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tulisanResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="Hasil :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="wait.."
+        android:textColor="#0037FF"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="--"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="Acceleration: X-Axis"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/currentX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="0.0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="Acceleration: Y-Axis"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/currentY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="0.0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="Acceleration: Z-Axis"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/currentZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3C2A21"
+        android:text="0.0"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/IDsimpan"
+        android:layout_width="193dp"
+        android:layout_height="62dp"
+        android:text="simpan" />
+
+
+</LinearLayout>
